@@ -2,7 +2,7 @@
 
 > simple script-only pixelate shader with Facebook SparkAR.
 
-![preview](https://spleennooname.github.io/sparkar-pixelate-shader/preview.jpg)
+![preview](https://github.com/spleennooname/sparkar-pixelate-shader/blob/master/preview.jpg)
 
 ## credits
 
