@@ -1,0 +1,41 @@
+{
+  "name": "sparkar-pixelate-shader",
+  "version": "1.0.0",
+  "description": "Pixelate Shader by scripting with Spark-AR",
+  "author": "Andrea Bovo <spleen666@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spleennooname/sparkar-pixelate-shader.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --mode=production --config webpack.config.js",
+    "dev": "cross-env NODE_ENV=development  webpack --watch --mode=production --config webpack.config.js"
+  },
+  "bugs": {
+    "url": "https://github.com/spleennooname/sparkar-pixelate-shader/issues"
+  },
+  "keywords": [
+    "ar",
+    "spark-ar"
+  ],
+  "dependencies": {
+    "mersenne-twister": "^1.1.0",
+    "simplex-noise": "^2.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "cross-env": "^5.2.0",
+    "node-sass": "^4.12.0",
+    "standard": "^13.1.0",
+    "terser-webpack-plugin": "^1.2.3",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

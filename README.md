@@ -1,8 +1,16 @@
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 # sparkar-pixelate-shader
 
 > simple script-only pixelate shader with Facebook SparkAR.
 
 ![preview](https://github.com/spleennooname/sparkar-pixelate-shader/blob/master/preview.jpg)
+
+## setup
+
+* install `npm i`
+* webpack watching `npm run dev`
+* webpack build `npm run build`
 
 ## credits
 
