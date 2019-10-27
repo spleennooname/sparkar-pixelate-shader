@@ -1,7 +1,6 @@
-![https://img.shields.io/badge/sdk-v73-green] [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+![](https://img.shields.io/badge/sdk-v73-green) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-# sparkar-pixelate-shader
-
+# sparkar-pixelate-shade
 > simple script-only pixelate shader with Facebook SparkAR.
 
 ![preview](./preview.jpg)
