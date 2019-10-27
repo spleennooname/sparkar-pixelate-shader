@@ -42,8 +42,5 @@ const finalColor = Shaders.textureSampler(cameraColor,
     tileY.mul((R.div(uv.y, tileY))
   )
 )
-
-
-(tilex * uvx) / tilex
 // Assign the shader signal to the texture slot
 faceCameraMaterial.setTexture(finalColor, { textureSlotName: Shaders.DefaultMaterialTextures.DIFFUSE })
