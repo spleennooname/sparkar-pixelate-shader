@@ -35,7 +35,7 @@ const pixelSize = R.pack2(
 )
 const tileX = R.div(pixelSize.x, res.x)
 const tileY = R.div(pixelSize.y, res.y)
-const newUV = R.pack2(tileX.mul(R.div(uv.x, tileX)), tileY.mul(R.div(uv.y, tileY)))
+const newUV = R.pack2(tileX.mul(R.floor(R.div(uv.x, tileX))), tileY.mul(R.floor(R.div(uv.y, tileY))))
 // sampling texture color at uv coords
 const finalColor = Shaders.textureSampler(cameraColor, newUV )
 // Assign the shader signal to the texture slot
